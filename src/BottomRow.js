@@ -24,6 +24,9 @@ const BottomRow = () => {
       </div>
       <div className="quarter">
         <button onClick={() => changeQuarter(quarter + 1)}>Change Quarter</button>
+        {quarter > 4 && (
+          changeQuarter(1)
+        )}
       </div>
     </div>
   );

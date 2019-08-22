@@ -21,6 +21,11 @@ body {
   font-size: 1.6rem;
 }
 
+.container {
+  background-color: #D3BC8D;
+}
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

@@ -41,6 +41,10 @@
   background-color: #af750a;
 }
 
+.active {
+  
+}
+
 .home__name,
 .away__name,
 .down__title,
@@ -116,8 +120,21 @@
 .homeButtons__touchdown,
 .homeButtons__fieldGoal,
 .awayButtons__touchdown,
-.awayButtons__fieldGoal,
-.quarter {
+.awayButtons__fieldGoal
+ {
   margin: 1rem;
+  border-radius: 4px;
+}
+
+.bottom-row-button {
+  /* width: 25%; */
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 20px;
+}
+
+.bottom-row-button button {
+  margin: .5rem;
   border-radius: 4px;
 }

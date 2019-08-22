@@ -33,7 +33,6 @@ const BottomRow = () => {
         {down > 4 && (
           changeDown(1)
         )}
-        <button>Change Yards</button>
       </div>
     </div>
   );
